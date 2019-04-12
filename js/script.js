@@ -1,7 +1,4 @@
 
-
-
-
 function tens(units){
     let y = String(units);
     if(units<10){
@@ -28,7 +25,7 @@ function time() {
     
     monthArray = ["January", "February", "March","April","May","June","July","August","September","October","November","December"];
     
-    todayDate.innerHTML =  h+":"+m+":"+s +" "+  daysArray[d.getDay()] + ", " + d.getDate()+" "+monthArray[d.getMonth()]+" , "+d.getFullYear();
+    todayDate.innerHTML =  h+":"+m+":"+s +"hrs "+  daysArray[d.getDay()] + ", " + d.getDate()+" "+monthArray[d.getMonth()]+" , "+d.getFullYear();
 
 }
 

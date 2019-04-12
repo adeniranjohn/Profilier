@@ -4,7 +4,9 @@ body {
     background-color: white;
     color: navy;
 }
-
+div#contacts i {
+    font-size: 10px;
+}
 
 ul {
     margin: 0 120px;
@@ -24,7 +26,8 @@ a {
 }
 i {
     font-size: 40px;
-     padding: 10px 0px;
+    padding: 10px 0px;
+    color: navy;
 }
 
 div.img img {
@@ -51,7 +54,7 @@ div#quote {
 
 div#socials ul{
     position: fixed;
-    top: 150px; 
+    top: 100px; 
     list-style: none;
     margin: 2px 0px;
     padding: 5px;
@@ -62,8 +65,9 @@ div#con {
 
 }
 
-div#socials  ul li a img {
-    height: 40px;
+div#socials  ul li a i {
+    height: 20px;
+    color: navy;
 }
 
 
