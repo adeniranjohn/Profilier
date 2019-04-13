@@ -1,8 +1,8 @@
 body {
  
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
-    color: navy;
+    color: #28783B;
 }
 div#contacts i {
     font-size: 10px;
@@ -13,7 +13,7 @@ ul {
 }
 
 header {
-    background-color: navy;
+    background-color:#28783B;
     margin: auto 0;
     height: 50px;
     position: fixed;
@@ -27,13 +27,13 @@ a {
 i {
     font-size: 40px;
     padding: 10px 0px;
-    color: navy;
+    color: #28783B;
 }
 
 div.img img {
     height: 80px;
     border-radius: 50px;
-    border: 10px solid navy;
+    border: 10px solid #28783B;
     
 
 }
@@ -44,6 +44,7 @@ div#menu {
     grid-column-gap: 10px;
     grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
     text-align: end;    
+    padding: 10px 0 0 0;
    
 }
 
@@ -67,7 +68,7 @@ div#con {
 
 div#socials  ul li a i {
     height: 20px;
-    color: navy;
+    color: #28783B;
 }
 
 
@@ -84,17 +85,14 @@ div#menu > div a {
     text-decoration: none;
 }
 
-hr {
-   background-color: navy; 
-    height: 2px;
-}
-
 
 h1 {
+ 
     font-size: 60px;
     text-align: center;
     margin: 0px;
     letter-spacing: 15px;
+
 
 }
 
@@ -147,21 +145,7 @@ img#email {
     margin: 100px 5px;
     border-radius: 20px;
 }
-#abtImage {
-    
 
-}
-#abtImage img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 15px solid;
-    margin: 100px auto;
-    position: absolute;
-    top: 230px;
-    left: 40%;
-    right: 40%;
-}
 
 footer {
     text-align: center;
