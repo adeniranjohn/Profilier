@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 # Profilier
-=======
-favicon = black and white avatar
-hardware skills
 
-software skills
+Skills - software skills, hardware skills,
 
-experience
-contact
-projects on github
-social handles - git, stackoverflow, linkedin
-education
-certification
->>>>>>> mybranch
+Experience - afterschool
+
+Contact - phone numbers, twitter, facebook, whatsapp, instagram,
+
+Professional handles - git, stackoverflow, linkedin, github
+Education - technical, school , online certification
