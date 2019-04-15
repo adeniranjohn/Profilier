@@ -1,9 +1,15 @@
 body {
- 
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
     color: #28783B;
+    
 }
+
+div#con  {
+    margin: 50px 0 0 50px;
+}
+
 div#contacts i {
     font-size: 10px;
 }
@@ -13,7 +19,7 @@ ul {
 }
 
 header {
-    background-color:#28783B;
+    background-color: #28783B;
     margin: auto 0;
     height: 50px;
     position: fixed;
@@ -24,6 +30,7 @@ a {
     color: white;
     font-size: 20px;
 }
+
 i {
     font-size: 40px;
     padding: 10px 0px;
@@ -34,18 +41,15 @@ div.img img {
     height: 80px;
     border-radius: 50px;
     border: 10px solid #28783B;
-    
-
 }
 
 div#menu {
-  
     display: inline-grid;
     grid-column-gap: 10px;
     grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
-    text-align: end;    
+    text-align: end;
     padding: 10px 0 0 0;
-   
+
 }
 
 div#quote {
@@ -53,50 +57,38 @@ div#quote {
     text-align: center;
 }
 
-div#socials ul{
+div#socials ul {
     position: fixed;
-    top: 100px; 
+    top: 100px;
     list-style: none;
     margin: 2px 0px;
     padding: 5px;
 }
 
-div#con {
-    margin: 50px 0 0 40px;
-
-}
-
-div#socials  ul li a i {
+div#socials ul li a i {
     height: 20px;
     color: #28783B;
 }
 
-
-#menu > div {
+#menu>div {
     margin: 5px 10px;
 }
 
-
-
-
-div#menu > div a {
+div#menu>div a {
 
     list-style: none;
     text-decoration: none;
 }
 
-
 h1 {
- 
     font-size: 60px;
     text-align: center;
     margin: 0px;
-    letter-spacing: 15px;
-
-
+    letter-spacing: 5px;
 }
 
-#todayDate, #contacts {
+#todayDate,
+#contacts {
     text-align: center;
 }
 
@@ -115,12 +107,11 @@ h2 strong {
     padding: 5px;
 }
 
-
 p {
     font-size: 16px;
 }
 
-div > p {
+div>p {
     margin: 5px;
     padding: 5px;
 }
@@ -131,21 +122,38 @@ p strong {
     margin: 10px;
     border-radius: 5px;
     font-size: 20px;
-    
-
-}
-
-img#email {
-    width: 20px;
 }
 
 #about {
     background-color: tomato;
-    padding: 100px 20px 20px 20px;
-    margin: 100px 5px;
-    border-radius: 20px;
+    display: grid;
 }
 
+article#message {
+    background-color: black;
+    grid-row: 1/2;
+}
+
+article#writeMe {
+    background-color: white;
+    grid-row: 1/2;
+}
+
+#project {
+    background-color: #28783B;
+}
+
+#contact {
+    background-color: blue;
+}
+
+#about,
+#project,
+#contact,
+#experience {
+    width: 100vw;
+    height: 100vh;
+}
 
 footer {
     text-align: center;
