@@ -2,13 +2,13 @@ body {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
-    color: #28783B;
-    
+    color: #28783B;   
 }
 
-div#con  {
+article#con, section#container  {
     margin: 50px 0 0 50px;
 }
+
 
 div#contacts i {
     font-size: 10px;
@@ -57,7 +57,7 @@ div#quote {
     text-align: center;
 }
 
-div#socials ul {
+article#socials ul {
     position: fixed;
     top: 100px;
     list-style: none;
@@ -65,7 +65,7 @@ div#socials ul {
     padding: 5px;
 }
 
-div#socials ul li a i {
+article#socials ul li a i {
     height: 20px;
     color: #28783B;
 }
@@ -98,6 +98,10 @@ blockquote {
 
 }
 
+summary {
+    display: block;
+    cursor: pointer;
+}
 h2 strong {
     font-size: 30px;
     border: 2px solid tomato;
@@ -127,18 +131,32 @@ p strong {
 #about {
     background-color: tomato;
     display: grid;
+ 
 }
 
 article#message {
     background-color: black;
+    width: 50vw;
     grid-row: 1/2;
 }
 
 article#writeMe {
     background-color: white;
     grid-row: 1/2;
+  
 }
 
+fieldset  {
+
+    margin: auto 50px;
+    
+}
+fieldset > input, textarea, button {
+    width: 350px;
+    display: block;
+    margin:  10px 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 #project {
     background-color: #28783B;
 }
